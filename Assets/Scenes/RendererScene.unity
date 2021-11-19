@@ -313,41 +313,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!328 &822887814
-VideoPlayer:
+--- !u!114 &822887814
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822887809}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 28dd44b168a6d21409ef66ac8955fae2, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 47336f4c8e8b087478d41055129d8d34, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 1
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd2cfc6f19a953448e73d01e2e915b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputTexture: {fileID: 8400000, guid: 47336f4c8e8b087478d41055129d8d34, type: 2}
+  clip: {fileID: 32900000, guid: 28dd44b168a6d21409ef66ac8955fae2, type: 3}
+  loop: 1
 --- !u!850595691 &960335991
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -506,41 +486,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!328 &1038606151
-VideoPlayer:
+--- !u!114 &1038606151
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038606146}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 28dd44b168a6d21409ef66ac8955fae2, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 47336f4c8e8b087478d41055129d8d34, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd2cfc6f19a953448e73d01e2e915b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputTexture: {fileID: 8400000, guid: 47336f4c8e8b087478d41055129d8d34, type: 2}
+  clip: {fileID: 32900000, guid: 28dd44b168a6d21409ef66ac8955fae2, type: 3}
+  loop: 1
 --- !u!114 &1038606152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,7 +723,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17498
+  m_Name: pb_Mesh17500
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
